@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <head>
+        <script src="https://cdn.tailwindcss.com"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body class="bg-gray-900 text-white font-sans">
+        <div class="p-4">
+            <div class="flex items-center mb-4">
+                <i class="fas fa-arrow-left text-xl"/>
+            </div>
+            <h1 class="text-2xl font-bold mb-6">Vuelo de San Francisco a Los Ángeles</h1>
+            <div class="space-y-4">
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-800 p-3 rounded-lg">
+                        <i class="fas fa-plane text-2xl"/>
+                    </div>
+                    <div>
+                        <div class="text-lg">Salida</div>
+                        <div class="text-gray-400">Viernes, 30 de junio</div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-800 p-3 rounded-lg">
+                        <i class="fas fa-clock text-2xl"/>
+                    </div>
+                    <div>
+                        <div class="text-lg">Hora de salida</div>
+                        <div class="text-gray-400">13:45</div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-800 p-3 rounded-lg">
+                        <i class="fas fa-map-marker-alt text-2xl"/>
+                    </div>
+                    <div>
+                        <div class="text-lg">Llegada</div>
+                        <div class="text-gray-400">Viernes, 30 de junio</div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-800 p-3 rounded-lg">
+                        <i class="fas fa-clock text-2xl"/>
+                    </div>
+                    <div>
+                        <div class="text-lg">Hora de llegada</div>
+                        <div class="text-gray-400">15:05</div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-800 p-3 rounded-lg">
+                        <i class="fas fa-hashtag text-2xl"/>
+                    </div>
+                    <div>
+                        <div class="text-lg">Número de vuelo</div>
+                        <div class="text-gray-400">AA 2049</div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-gray-800 p-3 rounded-lg">
+                        <i class="fas fa-ticket-alt text-2xl"/>
+                    </div>
+                    <div>
+                        <div class="text-lg">Clase</div>
+                        <div class="text-gray-400">Económica</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between mt-6">
+                <button class="bg-blue-600 text-white py-2 px-4 rounded-lg">Editar vuelo</button>
+                <button class="text-white">Eliminar vuelo</button>
+            </div>
+        </div>
+    </body>
+</root>

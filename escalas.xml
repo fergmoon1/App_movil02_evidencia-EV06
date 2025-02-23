@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Technical Scales</title>
+        <script src="https://cdn.tailwindcss.com"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    </head>
+    <body class="bg-white text-gray-900">
+        <div class="max-w-md mx-auto p-4">
+            <div class="flex justify-between items-center mb-4">
+                <h1 class="text-2xl font-bold">Technical Scales</h1>
+                <i class="fas fa-search text-xl"/>
+            </div>
+            <div class="flex space-x-2 mb-4">
+                <button class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full">All airports</button>
+                <button class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full">All flights</button>
+                <button class="bg-gray-100 text-gray-700 px-4 py-2 rounded-full">Today</button>
+            </div>
+            <div class="space-y-4">
+                <div class="flex items-center space-x-4">
+                    <img alt="Image of JFK airport" class="w-16 h-16 rounded" height="60" src="https://storage.googleapis.com/a1aa/image/PA2q7uT222xZ11Ontzg3SjWVevdG45Km7n6S6XbIQ4Y.jpg" width="60"/>
+                    <div>
+                        <p class="text-lg font-semibold">JFK 12:00 PM</p>
+                        <p class="text-gray-500">Flight 1234</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <img alt="Image of LAX airport" class="w-16 h-16 rounded" height="60" src="https://storage.googleapis.com/a1aa/image/_K5ltU-FKPmO6UUFMYcoyxluYPQ4baNPyvNKj9AZdvU.jpg" width="60"/>
+                    <div>
+                        <p class="text-lg font-semibold">LAX 6:00 AM</p>
+                        <p class="text-gray-500">Flight 2345</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <img alt="Image of SFO airport" class="w-16 h-16 rounded" height="60" src="https://storage.googleapis.com/a1aa/image/b0JrD5J2Fi-jkHXft2h7zUsFsWTwDPEJcqxWNpyRnNE.jpg" width="60"/>
+                    <div>
+                        <p class="text-lg font-semibold">SFO 2:00 PM</p>
+                        <p class="text-gray-500">Flight 3456</p>
+                    </div>
+                </div>
+            </div>
+            <button class="fixed bottom-4 right-4 bg-blue-500 text-white p-4 rounded-full shadow-lg">
+                <i class="fas fa-plus"/>
+            </button>
+        </div>
+    </body>
+</root>

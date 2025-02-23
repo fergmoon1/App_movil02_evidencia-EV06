@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <link rel="stylesheet" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"/>
+        <title>Galileo Design</title>
+        <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,"/>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"/>
+    </head>
+    <body>
+        <div class="relative flex size-full min-h-screen flex-col bg-[#111418] dark justify-between group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+            <div>
+                <div class="flex items-center bg-[#111418] p-4 pb-2 justify-between">
+                    <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Airport Dashboard</h2>
+                    <div class="flex w-12 items-center justify-end">
+                        <button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+                            <div class="text-white" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                    <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"/>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="p-4 @container">
+                    <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start">
+                        <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5cf65f05-c094-401f-8373-13488ec3b301.png");'/>
+                        <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4">
+                            <p class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">SFO</p>
+                            <div class="flex items-end gap-3 justify-between">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-[#9dabb8] text-base font-normal leading-normal">Terminal 1</p>
+                                    <p class="text-[#9dabb8] text-base font-normal leading-normal">San Francisco International Airport</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-4 p-4">
+                    <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#293038]">
+                        <p class="text-white text-base font-medium leading-normal">Gate</p>
+                        <p class="text-white tracking-light text-2xl font-bold leading-tight">B2</p>
+                    </div>
+                    <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#293038]">
+                        <p class="text-white text-base font-medium leading-normal">Time</p>
+                        <p class="text-white tracking-light text-2xl font-bold leading-tight">9:30AM</p>
+                    </div>
+                    <div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-[#293038]">
+                        <p class="text-white text-base font-medium leading-normal">Boarding</p>
+                        <p class="text-white tracking-light text-2xl font-bold leading-tight">9:00AM</p>
+                    </div>
+                </div>
+                <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Rutas populares</h2>
+                <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+                    <div class="flex flex-col gap-3 text-center pb-3">
+                        <div class="px-4">
+                            <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/3063e580-07bb-49af-8d4a-9fc310ef5c71.png");'/>
+                        </div>
+                        <p class="text-white text-base font-medium leading-normal">Nueva York</p>
+                    </div>
+                    <div class="flex flex-col gap-3 text-center pb-3">
+                        <div class="px-4">
+                            <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/028c75a0-e4de-4693-99c7-8d44fb7c4305.png");'/>
+                        </div>
+                        <p class="text-white text-base font-medium leading-normal">Las Vegas</p>
+                    </div>
+                    <div class="flex flex-col gap-3 text-center pb-3">
+                        <div class="px-4">
+                            <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/23b9bfa0-0de9-4617-a839-c3dbc978bde7.png");'/>
+                        </div>
+                        <p class="text-white text-base font-medium leading-normal">Chicago</p>
+                    </div>
+                    <div class="flex flex-col gap-3 text-center pb-3">
+                        <div class="px-4">
+                            <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/8dfcac8f-832d-4864-9fde-a2e4465fa1b3.png");'/>
+                        </div>
+                        <p class="text-white text-base font-medium leading-normal">Los Angeles</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex gap-2 border-t border-[#293038] bg-[#1c2126] px-4 pb-3 pt-2">
+                    <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+                        <div class="text-white flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"/>
+                            </svg>
+                        </div>
+                        <p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">Inicio</p>
+                    </a>
+                    <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9dabb8]" href="#">
+                        <div class="text-[#9dabb8] flex h-8 items-center justify-center" data-icon="Calendar" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z"/>
+                            </svg>
+                        </div>
+                        <p class="text-[#9dabb8] text-xs font-medium leading-normal tracking-[0.015em]">Reserva</p>
+                    </a>
+                    <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9dabb8]" href="#">
+                        <div class="text-[#9dabb8] flex h-8 items-center justify-center" data-icon="Airplane" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path d="M235.58,128.84,160,91.06V48a32,32,0,0,0-64,0V91.06L20.42,128.84A8,8,0,0,0,16,136v32a8,8,0,0,0,9.57,7.84L96,161.76v18.93L82.34,194.34A8,8,0,0,0,80,200v32a8,8,0,0,0,11,7.43l37-14.81,37,14.81A8,8,0,0,0,176,232V200a8,8,0,0,0-2.34-5.66L160,180.69V161.76l70.43,14.08A8,8,0,0,0,240,168V136A8,8,0,0,0,235.58,128.84ZM224,158.24l-70.43-14.08A8,8,0,0,0,144,152v32a8,8,0,0,0,2.34,5.66L160,203.31v16.87l-29-11.61a8,8,0,0,0-5.94,0L96,220.18V203.31l13.66-13.65A8,8,0,0,0,112,184V152a8,8,0,0,0-9.57-7.84L32,158.24v-17.3l75.58-37.78A8,8,0,0,0,112,96V48a16,16,0,0,1,32,0V96a8,8,0,0,0,4.42,7.16L224,140.94Z"/>
+                            </svg>
+                        </div>
+                        <p class="text-[#9dabb8] text-xs font-medium leading-normal tracking-[0.015em]">Mis viajes</p>
+                    </a>
+                    <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9dabb8]" href="#">
+                        <div class="text-[#9dabb8] flex h-8 items-center justify-center" data-icon="DotsThreeOutline" data-size="24px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                                <path d="M128,96a32,32,0,1,0,32,32A32,32,0,0,0,128,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,144ZM48,96a32,32,0,1,0,32,32A32,32,0,0,0,48,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,48,144ZM208,96a32,32,0,1,0,32,32A32,32,0,0,0,208,96Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,208,144Z"/>
+                            </svg>
+                        </div>
+                        <p class="text-[#9dabb8] text-xs font-medium leading-normal tracking-[0.015em]">Más</p>
+                    </a>
+                </div>
+                <div class="h-5 bg-[#1c2126]"/>
+            </div>
+        </div>
+    </body>
+</root>
