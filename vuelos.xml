@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Flights</title>
+        <script src="https://cdn.tailwindcss.com"/>
+    </head>
+    <body class="bg-white text-gray-900">
+        <div class="max-w-md mx-auto p-4">
+            <div class="flex items-center mb-4">
+                <i class="fas fa-arrow-left text-xl"/>
+                <h1 class="text-xl font-bold mx-auto">Flights</h1>
+            </div>
+            <div class="flex justify-between mb-4">
+                <button class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">All dates</button>
+                <button class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">All airports</button>
+                <button class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">All airlines</button>
+            </div>
+            <div class="space-y-4">
+                <div class="flex items-center">
+                    <img alt="United Airlines logo" class="w-12 h-12 rounded-md mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/6_YRJNUICf2kuPh1cxgTADOhveS7rqnFUwWtsF66XCk.jpg" width="50"/>
+                    <div>
+                        <div class="text-lg font-semibold">SFO to LAX</div>
+                        <div class="text-gray-500">Today 7:00 AM - 8:30 AM</div>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <img alt="Airline logo" class="w-12 h-12 rounded-md mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/xj_sOhU2GmneZpgITV0IiOoUBhUzHTeBSOAhzrWxjfw.jpg" width="50"/>
+                    <div>
+                        <div class="text-lg font-semibold">SFO to JFK</div>
+                        <div class="text-gray-500">Tomorrow 10:00 AM - 2:00 PM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-6">
+                <button class="w-full bg-gray-100 text-gray-700 py-3 rounded-full">Add flight</button>
+            </div>
+        </div>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    </body>
+</root>
